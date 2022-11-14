@@ -1,4 +1,3 @@
-import ExpenseItem from "./components/ExpenseItem";
 import Expenses from "./components/Expenses";
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
     },];
 
     return (<div>
-        <Expenses expenses={expenses}></Expenses>
+        <Expenses expenses={expenses} />
     </div>);
 }
 
